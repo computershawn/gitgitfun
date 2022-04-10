@@ -37,6 +37,24 @@ body {
   background: #ff4769;
 }
 
+.square2::after {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  background-color: #ff4769a8;
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+  mix-blend-mode: color;
+}
+
 .square3 {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAADpJREFUKFONzEsKADAIA9Hk/oe2WGjpR6OzfgzRy9hwBoAVnMhnCm6k4IUy+KEIhuiFKTqhRAuWyOEA/DwKCnfY+F8AAAAASUVORK5CYII=);
+}
+
+.square1 h1 {
+  margin: 0.5rem 1rem;
+  font-size: 2.5rem;
+  color: #006dff;
 }
