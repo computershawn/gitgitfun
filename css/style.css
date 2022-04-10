@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   font-family: monospace;
-  background: lavenderblush;
+  background: #efefef;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,11 +16,12 @@ body {
 .cell {
   width: 400px;
   height: 400px;
-  border: 1px solid gray;
+  border: 1px dotted gray;
   margin-right: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #ffffff;
 }
 
 .fun-square {
@@ -34,4 +35,8 @@ body {
 
 .square2 {
   background: #ff4769;
+}
+
+.square3 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAADpJREFUKFONzEsKADAIA9Hk/oe2WGjpR6OzfgzRy9hwBoAVnMhnCm6k4IUy+KEIhuiFKTqhRAuWyOEA/DwKCnfY+F8AAAAASUVORK5CYII=);
 }
