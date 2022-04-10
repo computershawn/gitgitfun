@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  font-family: monospace;
+  background: lavenderblush;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+
+}
+
+.cell {
+  width: 400px;
+  height: 400px;
+  border: 1px solid gray;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fun-square {
+  width: 90%;
+  height: 90%;
+}
+
+.square1 {
+  background: #47ffef;
+}
+
+.square2 {
+  background: #ff4769;
+}
